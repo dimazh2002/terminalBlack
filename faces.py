@@ -23,7 +23,8 @@ def four():
 	print ("Please enter password!")
 	password = input()
 	
-	while password != "12qw":
+	while password != "12qw" and count < 5:
+		count = count + 1
 		if count == 1:
 			face("happy")
 			print("please repeat again")
@@ -34,34 +35,14 @@ def four():
 			print("Don't try do it again!")
 			face("warning")
 		elif count == 4:
-			war()
-		count = count + 1
-		print ("Please enter password!")
+			print ("You will never do it again!")
+			war()		
 		password = input()
 
 	print("I hava a cat, his name is Cat!")	
 
 	return
 
-def fourfoour():
-	count = 0
-
-	print ("Please enter password!")
-	password = input()
-	if password == "12qw":
-		print("I hava a cat, his name is Cat!")	
-	if count == 1:
-		face("happy")
-		print("please repeat again")
-	elif count == 2:
-		face("ignor")
-		print("repeat again")
-	elif count == 3:
-		face("warning")
-		print("Don't try do it again!")
-		war()
-		
-	return
 
 def menu():
 
