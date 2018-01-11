@@ -19,9 +19,8 @@ if name == "dima" or name == "sergei" or name == "luda":
 			menu()
 		elif item == "end":
 			pass
-		elif item == "1":
 			print ("You push 1. Don't watch YouTube for 24 hours!")
-		elif item == "2": 
+		elif item == "2":
 			print ("You push 2. Hi, it's a terminal Black")
 		elif item == "3":
 			print("You push 3. Yes?")		

@@ -22,7 +22,7 @@ def four():
 	count = 0
 	print ("Please enter password!")
 	password = input()
-	
+
 	while password != "12qw" and count < 5:
 		count = count + 1
 		if count == 1:
@@ -38,8 +38,11 @@ def four():
 			print ("You will never do it again!")
 			war()		
 		password = input()
+		if password == "12qw":
+			print("I hava a cat, his name is Cat!")	
 
-	print("I hava a cat, his name is Cat!")	
+
+
 
 	return
 
